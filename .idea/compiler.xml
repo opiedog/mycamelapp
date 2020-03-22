@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="mycamel-app" />
         <module name="my-camel-app" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="my-camel-app" target="1.8" />
+      <module name="mycamel-app" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

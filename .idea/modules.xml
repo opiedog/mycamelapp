@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/my-camel-app.iml" filepath="$PROJECT_DIR$/my-camel-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mycamel-app.iml" filepath="$PROJECT_DIR$/mycamel-app.iml" />
     </modules>
   </component>
 </project>
