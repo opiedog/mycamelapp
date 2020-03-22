@@ -13,3 +13,4 @@ For more help see the Apache Camel documentation
 
     http://camel.apache.org/
 
+BASED ON https://github.com/monodot/camel-demos/tree/master/examples/spring-boot-example-call-rest-service

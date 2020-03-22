@@ -17,12 +17,12 @@ public class MyRouteBuilder extends RouteBuilder {
                 .to("file:testfiles/outputfolder");
 
 
-        /**
+        /**/
         from("timer://foo?fixedRate=true&period=1000")
                 //.log("route called")
                 .setBody().simple("yowza")
                 .to("stream:out");
-         **/
+         /**/
 
         /**
         // here is a sample which processes the input files

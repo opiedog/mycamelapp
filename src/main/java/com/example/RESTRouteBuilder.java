@@ -1,7 +1,6 @@
 package com.example;
 
 import org.apache.camel.builder.RouteBuilder;
-
 import java.io.InputStream;
 import java.util.Properties;
 import java.io.IOException;
@@ -19,7 +18,8 @@ public class RESTRouteBuilder extends RouteBuilder {
         InputStream input = getClass().getClassLoader().getResourceAsStream("application.properties");
         try {
             prop.load(input);
-        } catch (IOException e) {
+        }
+        catch (IOException e) {
             e.printStackTrace();
         }
 
